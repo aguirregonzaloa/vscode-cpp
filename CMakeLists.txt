@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.27.1)
 
-project(hello CXX)
+project(Hello LANGUAGES CXX)
 
 add_executable(Hello main.cpp)
 
