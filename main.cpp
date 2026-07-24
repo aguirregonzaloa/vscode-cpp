@@ -2,6 +2,7 @@
 
 #include <optional>
 #include <string>
+#include "SimpleClass.hpp"
 
 // optional can be used as the return type of a factory that may fail
 std::optional<std::string> create(bool b)
@@ -19,6 +20,8 @@ auto create2(bool b)
 
 int main()
 {
+    SimpleClass sc;
+    sc.print();
     /*lambda function simple example
     auto add = [](int x, int y) { return x + y; };
     int result = add(3, 4); // result is 7
