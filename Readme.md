@@ -8,6 +8,8 @@
 
 ```
 vscode-cpp/
+├── include
+├── src
 ├── CMakeLists.txt
 └── main.cpp
 ```
